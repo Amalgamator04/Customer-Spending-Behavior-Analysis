@@ -1,0 +1,25 @@
+Problem Statement:
+Understanding customer purchasing behavior is crucial for businesses to improve marketing strategies and personalize recommendations. However, real-world datasets are often expensive or difficult to obtain. This project aims to generate a synthetic dataset that mimics real-world customer transactions using the Faker library. The goal is to analyze customer spending habits, segment customers based on their spending patterns, and predict future purchases.
+
+Dataset Description (Synthetic Dataset)
+The dataset will contain simulated transaction records with the following attributes:
+
+Customer ID – Unique identifier for each customer
+Name – Fake customer name
+Age – Randomized age (18-70 years)
+Gender – Male/Female
+Location – Random city
+Purchase Category – Electronics, Clothing, Grocery, etc.
+Transaction Date – Random date within the last two years
+Transaction Amount (₹) – Random amount (₹50 - ₹50,000)
+Payment Method – Credit Card, Debit Card, UPI, Cash
+Loyalty Score – A score (0-100) representing customer loyalty
+
+
+Project Objectives:
+
+Data Generation: Use the Faker library to generate a dataset of 50,000+ synthetic transactions.
+Exploratory Data Analysis (EDA): Identify patterns in customer purchases (e.g., average spending per age group, category-wise sales, seasonal trends).
+Customer Segmentation: Use clustering techniques (K-Means, DBSCAN) to group customers based on spending behavior.
+Predictive Modeling: Build a machine learning model (Random Forest, XGBoost) to predict how much a customer will spend in the next transaction.
+Visualization: Use Matplotlib/Seaborn to create insightful charts and dashboards.
